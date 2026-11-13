@@ -1,0 +1,42 @@
+{
+  "mudur": { "id": "mudur", "ad": "Müdür", "unvan": "Ofis Müdürü", "emoji": "👔" },
+  "departmanlar": [
+    {
+      "ad": "Yazılım",
+      "ajanlar": [
+        { "id": "backend", "ad": "Deniz", "unvan": "Backend Geliştirici", "emoji": "🧑‍💻", "tip": "voltagent-core-dev:backend-developer", "skiller": ["claude-api", "run", "simplify"] },
+        { "id": "frontend", "ad": "Elif", "unvan": "Frontend Geliştirici", "emoji": "🎨", "tip": "voltagent-core-dev:frontend-developer", "skiller": ["artifact-design", "dataviz", "run"] },
+        { "id": "devops", "ad": "Baran", "unvan": "DevOps Mühendisi", "emoji": "🛠️", "tip": "voltagent-infra:devops-engineer", "skiller": ["run", "update-config"] },
+        { "id": "test", "ad": "Selin", "unvan": "Test Uzmanı", "emoji": "🧪", "tip": "voltagent-qa-sec:qa-expert", "skiller": ["code-review", "run"] },
+        { "id": "guvenlik", "ad": "Tolga", "unvan": "Güvenlik Denetçisi", "emoji": "🛡️", "tip": "voltagent-qa-sec:security-auditor", "skiller": ["security-review", "code-review"] }
+      ]
+    },
+    {
+      "ad": "Araştırma",
+      "ajanlar": [
+        { "id": "pazar", "ad": "Zeynep", "unvan": "Pazar Araştırmacısı", "emoji": "🔎", "tip": "voltagent-research:market-researcher", "skiller": ["research-ops-skills:market-research", "anthropic-skills:deep-research"] },
+        { "id": "rakip", "ad": "Emre", "unvan": "Rakip Analisti", "emoji": "♟️", "tip": "voltagent-research:competitive-analyst", "skiller": ["dossier:dossier", "patent:patent"] },
+        { "id": "trend", "ad": "Ada", "unvan": "Trend Analisti", "emoji": "📈", "tip": "voltagent-research:trend-analyst", "skiller": ["pulse:pulse"] },
+        { "id": "arastirma", "ad": "Mert", "unvan": "Araştırma Analisti", "emoji": "📚", "tip": "voltagent-research:research-analyst", "skiller": ["research-orchestrator:research", "litreview:litreview", "meta-research:meta-research", "deepread:deepread"] }
+      ]
+    },
+    {
+      "ad": "İş ve Pazarlama",
+      "ajanlar": [
+        { "id": "urun", "ad": "Ceren", "unvan": "Ürün Yöneticisi", "emoji": "🧭", "tip": "voltagent-biz:product-manager", "skiller": ["research-ops-skills:product-research", "research-ops-skills:interview-mapper", "roast:roast"] },
+        { "id": "icerik", "ad": "Kaan", "unvan": "İçerik Pazarlamacısı", "emoji": "✍️", "tip": "voltagent-biz:content-marketer", "skiller": ["anthropic-skills:docx", "anthropic-skills:pptx", "anthropic-skills:pdf"] },
+        { "id": "seo", "ad": "Derya", "unvan": "SEO Uzmanı", "emoji": "🌐", "tip": "voltagent-domains:seo-specialist", "skiller": ["pulse:pulse"] },
+        { "id": "satis", "ad": "Onur", "unvan": "Satış Mühendisi", "emoji": "🤝", "tip": "voltagent-biz:sales-engineer", "skiller": ["dossier:dossier", "anthropic-skills:pptx"] }
+      ]
+    },
+    {
+      "ad": "Finans",
+      "ajanlar": [
+        { "id": "veri", "ad": "Aslı", "unvan": "Veri Analisti", "emoji": "📊", "tip": "voltagent-data-ai:data-analyst", "skiller": ["anthropic-skills:xlsx", "dataviz", "finance-skills:financial-analyst"] },
+        { "id": "risk", "ad": "Cem", "unvan": "Risk Yöneticisi", "emoji": "⚖️", "tip": "voltagent-domains:risk-manager", "skiller": ["business-investment-advisor:business-investment-advisor", "finance-skills:passive-deal-screener"] },
+        { "id": "kantitatif", "ad": "İpek", "unvan": "Kantitatif Analist", "emoji": "🧮", "tip": "voltagent-domains:quant-analyst", "skiller": ["finance-skills:stock-analysis", "finance-skills:financial-analyst"] },
+        { "id": "kapanis", "ad": "Murat", "unvan": "Kapanış Kontrolörü", "emoji": "🧾", "tip": "month-end-close:cs-close-controller", "skiller": ["month-end-close:month-end-close", "finance-skills:saas-metrics-coach"] }
+      ]
+    }
+  ]
+}

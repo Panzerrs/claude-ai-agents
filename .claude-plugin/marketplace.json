@@ -1,0 +1,5 @@
+{
+  "name": "claude-ai-agents",
+  "owner": { "name": "Panzerrs" },
+  "plugins": [{ "name": "ajan-ofisi", "source": "./" }]
+}

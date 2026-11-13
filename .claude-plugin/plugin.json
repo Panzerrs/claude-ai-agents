@@ -1,0 +1,8 @@
+{
+  "name": "ajan-ofisi",
+  "version": "0.1.0",
+  "description": "Agent office for Claude Code: a manager that delegates to specialist subagents, with a live pixel-office panel beside the chat. / Ajan ofisi: işi uzman alt ajanlara dağıtan bir müdür ve sohbetin yanında canlı piksel ofis paneli.",
+  "author": { "name": "Panzerrs" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
